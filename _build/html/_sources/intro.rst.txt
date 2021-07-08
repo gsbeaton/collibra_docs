@@ -1,0 +1,4 @@
+Introduction
+============
+
+The Collibra connector is a Node.js service that runs on your Dataiku server and syncronises your Dataiku Meta Data into Collibra.

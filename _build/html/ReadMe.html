@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>FTI Dataiku-Collibra Connector Documentation &mdash; Collibra Connector 1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Collibra Connector
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FTI Dataiku-Collibra Connector Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-connector"><strong>What is the Connector?</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#requirements"><strong>Requirements</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#license-information"><strong>License Information</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-connector"><strong>Using the Connector</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-connector"><strong>Installing the Connector</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#getting-started"><strong>Getting Started</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dataiku-configuration">Dataiku Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#collibra-configuration">Collibra Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#running-the-connector">Running the connector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#overriding-the-default-mappings">Overriding the Default Mappings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#troubleshooting"><strong>Troubleshooting</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#command-reference"><strong>Command Reference</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Collibra Connector</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>FTI Dataiku-Collibra Connector Documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ReadMe.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="fti-dataiku-collibra-connector-documentation">
+<h1>FTI Dataiku-Collibra Connector Documentation<a class="headerlink" href="#fti-dataiku-collibra-connector-documentation" title="Permalink to this headline">¶</a></h1>
+<section id="what-is-the-connector">
+<h2><strong>What is the Connector?</strong><a class="headerlink" href="#what-is-the-connector" title="Permalink to this headline">¶</a></h2>
+<p>The Dataiku-Collibra connector is a tool built by <a class="reference external" href="https://digitaldelivery.uk/">FTI Consulting</a> to push Dataiku artifacts/assets into Collibra for cataloguing purposes. Application code &amp; unit tests originally written in NodeJS.</p>
+</section>
+<section id="requirements">
+<h2><strong>Requirements</strong><a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Running instance of Dataiku DSS with Public REST API access (<a class="reference external" href="https://www.dataiku.com/product/get-started/">Discover, Enterprise or Business license</a>)</p></li>
+<li><p>Running instance of <a class="reference external" href="https://www.collibra.com/">Collibra</a></p></li>
+</ul>
+<p>Technical requirements to install the connector:</p>
+<ul class="simple">
+<li><p>OS: Linux (Ubuntu)</p></li>
+<li><p>Network connections to Dataiku and Collibra instances</p></li>
+<li><p>Storage: the connector will create log files every time a data connection is made. The log file size will vary depending on amount of data and Dataiku instances.</p></li>
+</ul>
+</section>
+<section id="license-information">
+<h2><strong>License Information</strong><a class="headerlink" href="#license-information" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The connector is designed to connect to a single Collibra instance and 1 or more DataIKU instances. For information on licensing, please contact your DataIKU account representative.</p></li>
+</ul>
+</section>
+<section id="using-the-connector">
+<h2><strong>Using the Connector</strong><a class="headerlink" href="#using-the-connector" title="Permalink to this headline">¶</a></h2>
+<p>Placeholder text  // may not be needed</p>
+</section>
+<section id="installing-the-connector">
+<h2><strong>Installing the Connector</strong><a class="headerlink" href="#installing-the-connector" title="Permalink to this headline">¶</a></h2>
+<p>The connector does not require any installation beyond placing the connector in a folder. The folder structure should be as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── config
+│   ├── assetTypes.json
+│   ├── config.json
+│   ├── dataiku.json
+│   ├── relationTypes.json
+├── fti-connector
+</pre></div>
+</div>
+</section>
+<section id="getting-started">
+<h2><strong>Getting Started</strong><a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>Placeholder text</p>
+<section id="dataiku-configuration">
+<h3>Dataiku Configuration<a class="headerlink" href="#dataiku-configuration" title="Permalink to this headline">¶</a></h3>
+<p>This connector can be configured to connect to one or more Dataiku instances. For each instance you will need to supply the following:</p>
+<ol class="simple">
+<li><p>The URL of the instance’s public API</p></li>
+<li><p>An API key</p></li>
+</ol>
+<p>You will need to enter this information in the <code class="docutils literal notranslate"><span class="pre">config/dataiku.json</span></code> file. For example, if you have 2 Dataiku instances you would like the connector to contactm specify them in <code class="docutils literal notranslate"><span class="pre">dataiku.json</span></code> as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://dataiku-url1.com:11000/public/api/&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;apiKey&quot;</span><span class="p">:</span> <span class="s2">&quot;apikey1&quot;</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://dataiku-url2.com:11000/public/api/&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;apiKey&quot;</span><span class="p">:</span> <span class="s2">&quot;apikey2&quot;</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</section>
+<section id="collibra-configuration">
+<h3>Collibra Configuration<a class="headerlink" href="#collibra-configuration" title="Permalink to this headline">¶</a></h3>
+<p>As with Dataiku, you must specify the following in <code class="docutils literal notranslate"><span class="pre">config/collibra.json</span></code>:</p>
+<ol class="simple">
+<li><p>Collibra URL</p></li>
+<li><p>Collibra credentials</p></li>
+<li><p>Domain/Community</p></li>
+</ol>
+<p>If you wish to view asset relationships on the “Overview” page of specific assets, then you will need to manually create the appropriate Assignments in the Collibra interface on the Asset Types. This is a one-time step that will retroactively apply to all the assets, so you may do this at any time.</p>
+</section>
+<section id="running-the-connector">
+<h3>Running the connector<a class="headerlink" href="#running-the-connector" title="Permalink to this headline">¶</a></h3>
+<p>In order to start the connector simply run the executable with this command: <code class="docutils literal notranslate"><span class="pre">./</span> <span class="pre">fti-connector</span></code></p>
+<p>If successful you should be greeted with execution logs, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Process</span> <span class="n">Start</span> <span class="n">Time</span><span class="p">:</span> <span class="n">xx</span><span class="p">:</span><span class="n">xx</span><span class="p">:</span><span class="n">xx</span> <span class="n">xx</span><span class="o">/</span><span class="n">xx</span><span class="o">/</span><span class="n">xxxx</span>
+<span class="n">The</span> <span class="nb">next</span> <span class="n">scheduled</span> <span class="n">data</span> <span class="n">connection</span> <span class="n">will</span> <span class="n">execute</span> <span class="n">at</span> <span class="n">xx</span><span class="p">:</span><span class="n">xx</span><span class="p">:</span><span class="n">xx</span> <span class="n">xx</span><span class="o">/</span><span class="n">xx</span><span class="o">/</span><span class="n">xxxx</span><span class="p">,</span> <span class="n">which</span> <span class="ow">is</span> <span class="ow">in</span> <span class="n">x</span> <span class="n">days</span><span class="p">,</span> <span class="n">x</span> <span class="n">hours</span><span class="p">,</span> <span class="n">x</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">x</span> <span class="n">seconds</span>
+<span class="n">fti</span><span class="o">-</span><span class="n">connector</span><span class="o">&gt;</span> <span class="n">Successfully</span> <span class="n">parsed</span> <span class="n">config</span><span class="o">.</span><span class="n">json</span><span class="o">.</span>
+<span class="n">fti</span><span class="o">-</span><span class="n">connector</span><span class="o">&gt;</span> <span class="n">Successfully</span> <span class="n">parsed</span> <span class="n">dataiku</span><span class="o">.</span><span class="n">json</span> <span class="p">(</span><span class="mi">1</span> <span class="n">instance</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">found</span><span class="p">)</span>
+<span class="n">fti</span><span class="o">-</span><span class="n">connector</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</section>
+<section id="overriding-the-default-mappings">
+<h3>Overriding the Default Mappings<a class="headerlink" href="#overriding-the-default-mappings" title="Permalink to this headline">¶</a></h3>
+<p><strong>Advanced users only:</strong> You may, at your own risk, change the Asset Types and Relation Types used to represent the Dataiku objects. You can find these in <code class="docutils literal notranslate"><span class="pre">config/assetTypes.json</span></code> and <code class="docutils literal notranslate"><span class="pre">config/relationTypes.json</span></code> respectively. We recommend making backups of these files before making any changes.</p>
+<p>Please note that if you have already previously used the connector to create Collibra assets and before changing the Asset Types or Relation Types, these Asset Types, Relation Types, and assets will all remain in Collibra.</p>
+</section>
+<section id="troubleshooting">
+<h3><strong>Troubleshooting</strong><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h3>
+<p>Placeholder text</p>
+</section>
+<section id="command-reference">
+<h3><strong>Command Reference</strong><a class="headerlink" href="#command-reference" title="Permalink to this headline">¶</a></h3>
+<p>The connector offers a command line interface to help with configuration and management. The following commands are available:</p>
+<p><code class="docutils literal notranslate"><span class="pre">help</span></code></p>
+<p>This command displays the list of commands.</p>
+<p><code class="docutils literal notranslate"><span class="pre">info</span></code></p>
+<p>This command will display the next scheduled data connection time.</p>
+<p><code class="docutils literal notranslate"><span class="pre">updateconfig</span></code></p>
+<p>This command will re-read the config files and process any changes made.</p>
+<p><code class="docutils literal notranslate"><span class="pre">exit</span></code></p>
+<p>This command exits the connector.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, FTI Consulting LLP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
