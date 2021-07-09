@@ -5,11 +5,13 @@
 
 Dataiku to Collibra Connector
 ==============================================
-A Node.js service to syncronise your Dataiku Meta Data into Collibra.
+Welcome to the Product Documentation for the Dataiku to Collibra connector.  This site contains information on the details of installing and configuring the connector in your environment.
 
 .. toctree::
    :maxdepth: 2
    
-   intro
-   ReadMe
-
+   requirements
+   install
+   configure
+   usage
+   
