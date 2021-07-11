@@ -5,7 +5,19 @@
 
 Dataiku to Collibra Connector
 ==============================================
-Welcome to the Product Documentation for the Dataiku to Collibra connector.  This site contains information on the details of installing and configuring the connector in your environment.
+Welcome to the Product Documentation for the Dataiku to Collibra connector.
+This site contains information on the details of installing and configuring the connector in your environment.
+Please contact your Dataiku Customer Success Manager to get access to the Connector install package.
+
+V1.0 of the connector supports syncornisation of the following assets:
+
+ * Connections
+ * Datasets
+ * Managed Folders
+ * Projects
+ * Models
+ * Recipes 
+ 
 
 .. toctree::
    :maxdepth: 2

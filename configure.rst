@@ -1,6 +1,8 @@
 Configuration and Running
 =========================
-To allow the Connector to interact with both your Dataiku and Collibra instances, as a minimum requirement you must edit your ``config/dataiku.json`` and ``config/collibra.json`` configuration files.
+To allow the Connector to interact with both your Dataiku and Collibra instances, as a 
+minimum requirement you must edit your ``config/dataiku.json`` and ``config/collibra.json`` 
+configuration files before you can run the connector.
 
 Customising your Dataiku Configuration
 ######################################

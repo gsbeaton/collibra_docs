@@ -3,7 +3,7 @@ Requirements
 
 Server
 ######
-The Connector runs as ``Node.js`` service. It can be installed on your DSS server or a standalone instance.
+The Connector runs as ``Node.js`` service. It can be installed on your DSS server or a standalone Linux instance. The Connector has been tested on Ubuntu distributions.
 
 Prerequisites
 #############
@@ -12,8 +12,8 @@ Prerequisites
 * A running instance of `Collibra <https://www.collibra.com/>`_
 
 
-Technical requirements to install the connector
-################################################
+Server Minimum Recommended Requirements
+#######################################
 
 * OS: Linux (Ubuntu)
 * Network connections to Dataiku and Collibra instances
