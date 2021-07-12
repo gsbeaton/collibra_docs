@@ -7,7 +7,7 @@ The connector is a `Node.js` service to syncronise your `Dataiku <https://www.da
 License Information
 ###################
 
-- The connector is designed to connect to a single Collibra instance and 1 or more DataIKU instances. For information on licensing, please contact your DataIKU account representative. 
+- The connector is designed to connect to a single Collibra instance and 1 or more Dataiku instances. For information on licensing, please contact your Dataiku account representative. 
 
 Preparing to Install the Connector
 ##################################
