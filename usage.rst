@@ -78,5 +78,5 @@ The connector offers a command line interface to help with configuration and man
 
  * ``help``  This command displays the list of commands.
  * ``info``  This command will display the next scheduled data connection time.
- * ``updateconfig`` This command will re-read the config files and process any changes made.
+ * ``updateConfig`` **Deprecated** Stop and Start the connector to re-read new config details.
  * ``exit`` This command exits the connector.
