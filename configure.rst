@@ -82,3 +82,14 @@ Adding the ``parentCommunityId``
 The ``parentCommunityId`` is slightly easier to find. Go to the Collibra Dashboard amd navigate to the Community you would like all Dataiku projects to reside.  After selecting the Community copy the last part of the url (the id) and use that for the ``community -> parentCommunityId`` setting.
 
 .. Caution:: If settings are changed in this config the next connector run may re-create assets in Collibra with the new config.
+
+Customising the Connector Service
+#################################
+
+The connector can be customised to run at pre-determined intervals depending on business requirements. When the connector is first started, it performs an immidiate syncronisation.
+The customisable parameters are as follows:
+
+* ``logDirectory``: Default is ``"./logs"`` but can be directory on the server of your choice,
+* ``apiResponseTimeoutSeconds``: Default is ``5`` seconds. Determines how long the connector waits for a response from Dataiku or Collibra before returning a __timeout__ error and moving on.
+* ``firstRunTime``: This parameter is currently unsupported and should be left at the default value of ``"00:00``,
+* ``runTimeInterval``: The time interval in minutes that the connector should wait between synconisations. The default value is ``"40m"``.
