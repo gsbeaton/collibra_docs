@@ -3,7 +3,7 @@ Requirements
 
 Server
 ######
-The Connector runs as ``Node.js`` service. It can be installed on your DSS server or a standalone Linux instance. The Connector has been tested on Ubuntu distributions.
+The Connector runs as a ``Node.js`` service. It can be installed on your DSS server or on a standalone Linux instance. The Connector has been tested on Ubuntu distributions.
 
 Prerequisites
 #############
