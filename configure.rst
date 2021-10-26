@@ -54,7 +54,7 @@ Bypassing Invalid Certificates
 ------------------------------
 .. Caution:: Setting the connector to bypass invalid certificates leaves you vulnerable to MITM (Man In The Middle) attacks. We recommend this setting is only used in a controlled secure zone such as a private network.
 
-To set the connector to ignore an invalid certificate eg one that has expired, is invalid or has a broken chain, you will need to change the ``validCertificate`` parameter in the ``config.json`` file to ``true``.
+To set the connector to ignore an invalid certificate eg one that has expired, is invalid or has a broken chain, you will need to change the ``validCertificate`` parameter in the ``config.json`` file to ``false``. Note the default value is ``true``.
 
 .. code-block:: json
     :caption: An example code block showing the validCertificate syntax.
@@ -63,7 +63,7 @@ To set the connector to ignore an invalid certificate eg one that has expired, i
       {
         ...
         "runTimeInterval": "40m"
-        "validCertificate": true
+        "validCertificate": false
       }
     ]
 
