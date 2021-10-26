@@ -57,10 +57,11 @@ Bypassing Invalid Certificates
 To set the connector to ignore an invalid certificate eg one that has expired, is invalid or has a broken chain, you will need to change the ``validCertificate`` parameter in the ``config.json`` file to ``true``.
 
 .. code-block:: json
-    :caption: An example code block connecting to two Dataiku instances.
+    :caption: An example code block showing the validCertificate syntax.
 
     [
       {
+        ...
         "runTimeInterval": "40m"
         "validCertificate": true
       }
