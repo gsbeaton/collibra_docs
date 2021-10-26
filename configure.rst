@@ -50,6 +50,21 @@ You will need to enter this information in the ``config/dataiku.json`` file. For
       }
     ]
 
+Bypassing Invalid Certificates
+------------------------------
+.. Caution:: Setting the connector to bypass invalid certificates leaves you vulnerable to MITM (Man In The Middle) attacks. We recommend this setting is only used in a controlled secure zone such as a private network.
+
+To set the connector to ignore an invalid certificate eg one that has expired, is invalid or has a broken chain, you will need to change the ``validCertificate`` parameter in the ``config.json`` file to ``true``.
+
+.. code-block:: json
+    :caption: An example code block connecting to two Dataiku instances.
+
+    [
+      {
+        "runTimeInterval": "40m"
+        "validCertificate": true
+      }
+    ]
 
 Customising your Collibra Configuration
 #######################################
@@ -83,8 +98,8 @@ The ``parentCommunityId`` is slightly easier to find. Go to the Collibra Dashboa
 
 .. Caution:: If settings are changed in this config the next connector run may re-create assets in Collibra with the new config.
 
-Customising the Connector Service
-#################################
+Configuring the Log Directory and Run Time Interval
+###################################################
 
 The connector can be customised to run at pre-determined intervals depending on business requirements. When the connector is first started, it performs an immidiate syncronisation.
 The customisable parameters are as follows:
